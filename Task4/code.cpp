@@ -46,7 +46,7 @@ int main()
         }
     }
     map<string, int> occurence;
-    for(int i=0; i<6; ++i) { //set max 6 soon and 0 start
+    for(int i=0; i<6; ++i) { 
         sort(pos[i], pos[i]+bal);
         for(int j=0; j<bal; ++j) {
             if(occurence.find(pos[i][j]) == occurence.end()) {
